@@ -1,4 +1,4 @@
-//this first part is logical function para ma fetch the data from API ug i display sya using async/await 
+//this first part is logical function para ma fetch the data from API ug i display sya using async/await  
 
 async function fetchUsers() {
   const usersContainer = document.getElementById("users");
