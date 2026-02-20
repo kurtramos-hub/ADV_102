@@ -1,3 +1,5 @@
+//this first part is logical function para ma fetch the data from API ug i display sya using async/await 
+
 async function fetchUsers() {
   const usersContainer = document.getElementById("users");
 
@@ -28,5 +30,5 @@ async function fetchUsers() {
   }
 }
 
-// Run the function after page loads
+// kani na part is to handle the error if ever naay problema sa pag fetch sa data 
 window.addEventListener("DOMContentLoaded", fetchUsers);
